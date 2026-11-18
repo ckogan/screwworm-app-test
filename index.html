@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TEST: Screwworm zone freedom (draft)</title>
+    <script
+      src="./shinylive/load-shinylive-sw.js"
+      type="module"
+    ></script>
+    <script type="module">
+      import { runExportedApp } from "./shinylive/shinylive.js";
+      runExportedApp({
+        id: "root",
+        appEngine: "python",
+        relPath: "",
+      });
+    </script>
+    <link rel="stylesheet" href="./shinylive/style-resets.css" />
+    <link rel="stylesheet" href="./shinylive/shinylive.css" />
+    
+  </head>
+  <body>
+    <div id="test-banner" style="background:#b42318;color:#fff;font:600 14px/32px system-ui,sans-serif;height:32px;padding:0 16px;box-sizing:border-box;overflow:hidden;white-space:nowrap;text-overflow:ellipsis">Test version: internal review only. Not for distribution.</div>
+    
+    <div style="background:#fff3c4;border-bottom:1px solid #e0c96b;padding:8px 16px;height:40px;box-sizing:border-box;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font:15px/1.4 system-ui,sans-serif;color:#1f2328"><strong>Draft for discussion.</strong> Results are preliminary, and the parameters have not had expert review. Not for decisions. <a href="report/">Parameter and source report</a>.</div>
+    <div style="height: calc(100vh - 72px); width: 100vw" id="root"></div>
+    
+  </body>
+</html>
