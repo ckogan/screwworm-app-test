@@ -1,3 +1,3 @@
-source: screwworm-app branch nws-tailoring-next, commit 9425a7f922f8ea71c165c4d1c0a248abb57f2d5f
-published: 2026-11-18T18:27Z
-change: First test publish: county version with the introduction module and the check against 2026 detections.
+source: screwworm-app branch nws-tailoring-next, commit a0430dd706c0062c9762545950386202349b07b0
+published: 2026-11-19T00:57Z
+change: The dashed line on the freedom graph is now a baseline: the chance the zone is free with no surveillance. A picture of how introductions are built is shown where the module is first described, with a link from the app.

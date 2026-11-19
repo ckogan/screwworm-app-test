@@ -1,1 +1,2 @@
 2026-11-18  9425a7f  First test publish: county version with the introduction module and the check against 2026 detections.
+2026-11-18  a0430dd  The dashed line on the freedom graph is now a baseline: the chance the zone is free with no surveillance. A picture of how introductions are built is shown where the module is first described, with a link from the app.
